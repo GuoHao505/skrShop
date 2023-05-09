@@ -1,25 +1,19 @@
 import request from '@/utils/request';
 
-export async function getShopList(data:any) {
-    return request('/shop/getShopList', {
+export async function getShopTotal(data: any) {
+    return request('/shop/getShopTotal', {
         method: 'post',
         data,
     });
 }
-export async function deleteShop(data: any) {
-    return request('/shop/deleteShop', {
+export async function getChartsList(data: any) {
+    return request('/shop/getChartsList', {
         method: 'post',
         data,
     });
 }
-export async function upDateShop(data: any) {
-    return request('/shop/upDateShop', {
-        method: 'post',
-        data,
-    });
-}
-export async function addShop(data: any) {
-    return request('/shop/addShop', {
+export async function getRanking(data: any) {
+    return request('/shop/getRanking', {
         method: 'post',
         data,
     });
