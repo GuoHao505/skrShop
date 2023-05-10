@@ -6,15 +6,24 @@ export async function getShopTotal(data: any) {
         data,
     });
 }
-export async function getChartsList(data: any) {
+export async function getChartsList() {
     return request('/shop/getChartsList', {
+        method: 'post',
+    });
+}
+export async function getRanking() {
+    return request('/shop/getRanking', {
+        method: 'post',
+    });
+}
+export async function getShopList(data: any) {
+    return request('/shop/getShopList', {
         method: 'post',
         data,
     });
 }
-export async function getRanking(data: any) {
-    return request('/shop/getRanking', {
+export async function getSalesProportion() {
+    return request('/shop/getSalesProportion', {
         method: 'post',
-        data,
     });
 }

@@ -23,6 +23,24 @@ export default [
     ],
   },
   {
+    path: '/CommodityManagement',
+    name: 'CommodityManagement',
+    icon: 'Shopping',
+    routes: [
+      {
+        path: '/CommodityManagement/Analyse',
+        name: 'Analyse',
+        component: './CommodityManagement/Analyse',
+      },
+      {
+        path: '/CommodityManagement/Monitor',
+        name: 'Monitor',
+        component: './CommodityManagement/Monitor',
+      },
+    ],
+
+  },
+  {
     path: '/StoreManagement',
     name: 'StoreManagement',
     icon: 'Shop',
@@ -34,12 +52,6 @@ export default [
     icon: 'User',
     access: 'admin',
     component: './AccountManagement',
-  },
-  {
-    path: '/CommodityManagement',
-    name: 'CommodityManagement',
-    icon: 'Shopping',
-    component: './CommodityManagement',
   },
   {
     path: '/BrandManagement',

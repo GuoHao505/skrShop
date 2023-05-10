@@ -3,6 +3,8 @@ export default {
   'menu.BrandManagement': '品牌管理',
   'menu.AccountManagement': '账号管理',
   'menu.CommodityManagement': '商品管理',
+  'menu.CommodityManagement.Analyse': '分析页',
+  'menu.CommodityManagement.Monitor': '监控页',
   'menu.StoreManagement': '店铺管理',
   'menu.welcome': '欢迎',
   'menu.more-blocks': '更多区块',
